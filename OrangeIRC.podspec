@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
 	s.resources = []
 
-    s.dependency = 'CocoaAsyncSocket', :git => 'https://github.com/robbiehanson/CocoaAsyncSocket.git', :branch => 'master'
+    s.dependency = 'CocoaAsyncSocket'
 
 	s.requires_arc = true
 end
