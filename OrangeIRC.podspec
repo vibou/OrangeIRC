@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
 	s.resources = []
 
-    s.dependency = 'CocoaAsyncSocket'
+    s.dependency = 'CocoaAsyncSocket', '~> 7.6'
 
 	s.requires_arc = true
 end
